@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "micro-vite": "cli.js"
+  },
   "scripts": {
     "build": "tsup src/index.ts",
     "watch": "tsup src/index.ts --watch"
@@ -10,6 +13,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.11.21",
     "tsup": "^8.0.2"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "typescript": "^5.3.3"
   }
 }
