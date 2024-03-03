@@ -23,6 +23,7 @@ dependencies:
   connect: 3.7.0
   connect-history-api-fallback: 2.0.0
   node-html-parser: 6.1.12
+  rollup: 4.12.0
   rollup-plugin-esbuild: 6.1.1_rollup@4.12.0
   sirv: 2.0.4
   typescript: 5.3.3
@@ -33,7 +34,6 @@ devDependencies:
   '@types/connect-history-api-fallback': 1.5.4
   '@types/node': 20.11.21
   '@types/ws': 8.5.10
-  rollup: 4.12.0
   tsup: 8.0.2_typescript@5.3.3
 
 packages:
